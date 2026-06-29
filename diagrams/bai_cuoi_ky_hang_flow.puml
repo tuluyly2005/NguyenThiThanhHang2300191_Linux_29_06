@@ -1,0 +1,21 @@
+@startuml
+title Quy trinh lam bai cuoi ky cua Hang
+
+start
+:Chia dia thanh /, /var, /usr, swap, /home;
+:Xem bang routing va luu vao /root/routing;
+:Xac dinh default gateway va duong mang;
+:Tim lenh ping;
+:Ping 172.29.8.2 va 172.29.8.10;
+:Xoa default gateway bang route;
+:Ping so sanh va them lai default gateway;
+:Xoa duong mang bang route;
+:Ping so sanh va them lai duong mang;
+:Doi hostname bang hostname, hostnamectl, /etc/hostname;
+:Doi IP bang ip, ifconfig, nmcli;
+:Dat IP 192.168.10.91 va xem routing;
+:Kiem tra, cai va bat SSH;
+:Cau hinh DHCP cap phat 192.168.10.100 den 192.168.10.130;
+stop
+
+@enduml
